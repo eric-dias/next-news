@@ -1,0 +1,25 @@
+.container{
+    width: 700px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+.link:hover{
+    color: rgb(177, 0, 0);
+}
+
+.image{
+    width: 700px;
+}
